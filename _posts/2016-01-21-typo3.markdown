@@ -1,0 +1,36 @@
+---
+layout: post
+title: Typo3
+date:   2016-01-21 19:00:27 +0100
+---
+
+# Typo 3
+
+Im Unterricht wurde das vor allem im deutschsprachigen Raum bekannte CMS1 Typo3 im Zuge eines Workshops durch besprochen. Typo3 ist ein Open Source Content-Management Framework, das auf der Skriptsprache PHP basiert. Im Hintergrund können verschiedene bekannte Datenbanken wie MySQL, PostgreSQL oder Oracle verwendet werden, wobei MySQL lange Zeit die einzige Option war. Ebenfalls ist die modulare Erweiterbarkeit gegeben, denn sogenannte Extensions können einfach hinzugefügt und in die eigene Webseite integriert werden, ohne neuen Programmcode schreiben zu müssen. Es gibt über 6000 solcher Erweiterungen, die aber trotzdem mit Vorsicht eingebunden werden sollten, da viele von Fremdanbietern stammen oder nur in Alpha-Versionen verfügbar sind. 
+
+Wichtig ist natürlich auch der Webserver, die häufigste Kombination bei der Installation ist der Webserver Apache mit PHP. Damit Typo3 richtig läuft benötigt man noch GDLibrary, welche automatisch bei der PHP Standardinstallation inkludiert ist. Um alle Bilder richtig anzuzeigen ist es noch wichtig ImageMagick zu installieren.
+
+Typo3 gilt als schwierig und komplex im Vergleich zu anderen Content Management Systemen. 
+Was die Komplexität betrifft, Typo3 zu lernen, bedeutet auch gleichzeitig, viel Zeit damit zu verbringen, Dokumentationen zu lesen und sich die systemeigene Konfigurationssprache TypoScript anzueignen. Diese ist für die Steuerung des Systems und zur Entwicklung von Vorlagedateien gedacht. Das Hosting für eine Typo3-unterstützte Webseite ist relativ einfach, da es sehr viel Hostinganbieter gibt, die dieses CMS unterstützen.
+
+Die Erst-Installation ist zeitaufwändig und teilweise komplex. Auch die Aufbereitung der Files, die eingebunden werden, nimmt einige Zeit in Anspruch. 
+Probleme können im Frontend sowie auch im Backend auftreten. Typo3 ist mit einem hohen Resourcenbedarf verbunden, welcher einen stabilen Betrieb vor allem unter Last oft nicht zulässt. Nicht nur Grafikfunktionen(ImageMagick) und das Backend sind davon betroffen, sondern auch die die Frontend-Anzeige.
+
+Zusammenfassend kann man sagen, Typo3 ist für Programmierer mit CMS-Vorkenntnissen gedacht, da schon die Konfiguration und TypoScript einiges an Geduld verlangen und eventuelles Vorwissen den Einstieg massiv erleichtert. Programmier-Anfänger tun sich sicher schwerer und es ist auch für die Effizienz des Programmierers sinnvoller sich vorher mit einem einfacheren CMS auseinander zu setzen. Außerdem ist es für kleinere Webseiten sicher nicht empfehlenswert, dieses CMS Framework zu verwenden, da der Lernaufwand für den Programmierer zu hoch wäre. Für Projekte größeren Umfangs ist es sicher eine Alternative, wenn man es nicht von Grund auf lernen muss, sondern schon Erfahrung mit Typo3 besitzt.
+
+Ich habe selbst mein Matura-Projekt mit Typo3 umgesetzt und habe daher auch einige interessante und lehrreiche Erfahrungen damit gemacht. TypoScript zu lernen ist aufwändig und hat sich aus meiner Sicht nicht rentiert, da ich Typo3 aufgrund meiner Erfahrungen nicht mehr verwenden würde um ein Projekt umzusetzen. Zusätzlich zur Installation von XAMPP (Apache etc.) und Typo3 muss man auch ImageMagick extra konfigurieren. Die Navigation im Backend ist unübersichtlich und ich habe lange gebraucht, mich zurecht zu finden und effizient mit Typo3 zu arbeiten. Es war schwer, Lösungen zu den Fehlermeldungen zu bekommen und dieses Unterfangen war mit vielen Stunden der Suche auf Google verbunden. Viele der Extensions waren außerdem nicht kompatibel oder erfüllten doch nicht die beschriebene Funktion. TypoScript ist nötig um alle Funktionen des Frameworks zu verwenden. 
+
+# Quellen:
+
+> Fritz, Rene., Hinderink, D., & Altmann, W. (2005). TYPO3: enterprise content 
+> management. PACKT PUB.
+> http://www.stevens-tech.edu/ses/documents/fileadmin/documents/pdf/TYPO3_02_
+> Installation_sample_chapter.pdf
+
+> C. Trabold, J. Hasenau, and P. Niederlag, Typo3 Kochbuch (O’Reilly Verlag, 2008), 
+> https://books.google.at/books?id=_h5IBAAAQBAJ.
+
+> Stöckl, A.,  and F., Bongers, Einstieg in TYPO3 4.0: Installation, Grundlagen, 
+> TypoScript ; [inkl. Einführung in TypoScript ; Mit TypoScript-Referenz], Galileo 
+> Computing (Galileo Press, 2006), https://books.google.at/books?id=Uzwi3wZ3jzAC.
+
