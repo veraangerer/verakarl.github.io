@@ -3,3 +3,15 @@ layout: post
 title: D3
 date:   2016-01-21 19:00:27 +0100
 ---
+# D3
+![Screenshot from D3](/assets/d3.png)
+
+> Bildquelle: www.d3js.org
+
+# Quellen:
+>
+>
+>
+>
+>
+>

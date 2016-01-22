@@ -4,7 +4,9 @@ title: Typo3
 date:   2016-01-21 19:00:27 +0100
 ---
 
-# Typo 3
+![Logo Typo3](/assets/typo3.png)
+
+> Bildquelle: www.typo3.org
 
 Im Unterricht wurde das vor allem im deutschsprachigen Raum bekannte CMS1 Typo3 im Zuge eines Workshops durch besprochen. Typo3 ist ein Open Source Content-Management Framework, das auf der Skriptsprache PHP basiert. Im Hintergrund können verschiedene bekannte Datenbanken wie MySQL, PostgreSQL oder Oracle verwendet werden, wobei MySQL lange Zeit die einzige Option war. Ebenfalls ist die modulare Erweiterbarkeit gegeben, denn sogenannte Extensions können einfach hinzugefügt und in die eigene Webseite integriert werden, ohne neuen Programmcode schreiben zu müssen. Es gibt über 6000 solcher Erweiterungen, die aber trotzdem mit Vorsicht eingebunden werden sollten, da viele von Fremdanbietern stammen oder nur in Alpha-Versionen verfügbar sind. 
 
