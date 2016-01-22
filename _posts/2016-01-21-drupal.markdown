@@ -8,10 +8,27 @@ date:   2016-01-21 19:00:27 +0100
 
 > Bildquelle: www.drupal.org
 
+Ein weiteres CMS das wir im Zuge des Unterrichts an der FH behandelt haben, ist das Open Source Framework Drupal. Im Gegensatz zu Typo3 ist es auch im internationalen Raum bekann und wird öfter genutzt. Ein weiterer Vorteil ist, dass dieses CMS benutzt werden kann, ohne weitere Codingsprachen lernen zu müssen, was bedeutet, vor allem Nicht-Programmierer können es ebenfalls verwenden. Drupal besitzt eine modulare Architektur und ist somit nicht nur ein CMS sondern auch ein nützliches PHP Content Management Framework(CMF). 
+
+Im Grunde besteht der Aufbau einer Drupal-Seite aus der Kombination verschiedener „building blocks“(Byron, 2008, S.1), so kann man seine Seite nach seinen Wünschen gestalten. Der Begriff CMF sagt aus, dass es zusätzlich zur Aufbaufunktion einer Webseite auch noch die Möglichkeit für Entwickler bietet, Plugin - Module selbst anzupassen. Es gibt zwei verschieden Arten von Modulen: „Core“ Module, die direkt im System integriert sind und „contribute“ Module, welche von der im Hintergrund stehenden Community zur Verfügung gestellt werden. Zudem kann man verschiedene Themen zuweisen, um die Webseite im richtigen Licht erstrahlen zu lassen. „Role-based access permissons“ (Byron, 2008, S.2) erleichtern zudem, den Usern der Seite verschieden Rollen zuzuweisen und je nach Rolle, die zugänglichen Seiten und Funktionen anzupassen. Mit Drupal ist es einfach, Blogs, Kommentare oder Foren zu erstellen und diese Seiten auch mit einer guten Suchmaschine auszustatten.
+
+Drupal behandelt die verschiedenen Seitentypen als sogenannte „nodes“, welche die strukturierte Information zu den zugehörigen Seiten beinhalten. Im Gegensatz dazu, sind im Menü und der Taxonomie (das Taggen von Inhalten) die Informationsarchitektur zu finden. Das ist auch der Grund dafür, dass bestimmte Contents oder Menüleisten etc. je nach Userrolle angezeigt oder versteckt werden können. Ein tolles Extra das Drupal von anderen Systemen unterscheidet ist das Handling der Kommentare. Normalerweise benötigt man zusätzliche Blogging-Systeme um Kommentare anzeigen zu lassen. Mit Drupal entfällt diese Notwendigkeit, es können Kommentare zu jedem Node-Typ aktiviert werden. Im Hintergrund werden alle Daten die Drupal verwendet in einer Datenbank gespeichert. Jeder Informationstyp wird in einer eigenen Tabelle gespeichert, also die Grundinformation und die Felder jeweils in einer eigenen Tabelle, welche automatisch erstellt werden. Die meistgenützte Datenbank ist hier MySQL, es gibt aber auch die Möglichkeit andere zu verwenden.
+
+Der Drupal-Flow besteht aus 5 Schichten, sogenannten Layern. Ganz unten befindet sich der „Node Pool“, also die Sammlung aller Daten. Die Schicht darüber beinhaltet die Module, welche schon im vorletzten Absatz kurz beschrieben wurden. Blocks, stellen oft den Output der Module dar und können beliebig auf der Seite gesetzt werden, und Menüs sind in der 3.Schicht angesiedelt. Menüs dienen als Navigatoren auf den Drupal-Seiten und leiten den User relativ zu den gesetzten Pfaden weiter. Darüber befinden sich die Einstellungen für die User Permissions, also die für die bestimmten Rollen des Users spezifizierten Anpassungen. Als letzte Schicht sieht man das Seiten - Theme, die visuelle Anpassung bzw. das Design der Seite, das über viele verschiedenen Templates nach Wunsch gestaltet werden kann.
+
+![Flow Drupal](/assets/flow.png)
+
+> Bildquelle: www.drupal.org
+
+Ich habe das Aufsetzen von Drupal als einfach angsehen, da es mir leicht fiel und ich keine Probleme hatte, es zum Laufen zu bringen. Es ist im Vergleich zu Typo3 viel praktischer und man muss keine neue Konfigurationssprache lernen, sondern kann nach der Installation gleich loslegen, eine einfache Seite mit verschiedenen Modulen zu bauen. Das haben wir im Unterricht auch gemacht, haben es also geschafft eine simple Seite innerhalb ein paar Minuten zu bauen. Drupal ist sicher empfehlenswert, vor allem für CMS - unerfahrene Menschen, oder Menschen , die einfach eine simple Seite bauen wollen ohne Programmieren zu lernen. Das einzige was mich stört sind die Themes (also die Designs), aber das liegt an meinem persönlichen Geschmack, was Design betrifft.
+Zusammenfassend ist Drupal aber ein stabiles, anpassbares und voll funktionsfähiges Content Management System/Framework, welches absolut zu empfehlen ist.
+
 # Quellen:
+> Byron, A. et al., Using Drupal (O’Reilly Media, 2008), 
+> https://books.google.at/books?id=LVz8q2qYQNUC.
 >
+> D. Mercer, Drupal: Creating Blogs, Forums, Portals, and Community Websites (Packt 
+> Publishing, Limited, 2006), https://books.google.at/books?id=-8pwk977b4cC.
 >
->
->
->
->
+> Drupal Documentation
+> https://www.drupal.org/documentation
