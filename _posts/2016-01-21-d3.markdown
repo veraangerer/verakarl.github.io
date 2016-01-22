@@ -11,11 +11,12 @@ date:   2016-01-21 19:00:27 +0100
 D3.js ist eine Javascript-Library um Dokumente, die auf Daten basieren, zu manipulieren. Es verhilft einem, Daten auf eine schöne Art und Weise visuell und interaktiv darzustellen und sie so zum Leben zu bringen und zwar mithilfe von SVG (Scalable Vector Graphics), HTML und CSS. Diese Manipulation bezeichnet man auch als DOM Manipulation. Unter DOM versteht man das Document Object Model, auf welches eine Seite aufbaut.
 D3 funktioniert mit allen gängigen modernen Browsern (IE8 ausgeschlossen), die SVG und CSS3 Transitions unterstützen. Es verwendet die W3C DOM API und die Selectors API.
 Die Installation von D3 ist sehr einfach, da man es einfach über die Kommandozeile mit node.js installieren kann. 
-```npm install d3
+```ssh
+npm install d3
 Alles was man dann noch benötigt ist ein HTTP- Webserver. Das ist auch die Art und Weise wie wir es im Unterricht installiert haben.
 
 D3.js ist flexibel, was bedeuten soll, das es Code Wiederverwendung unterstützt und zwar durch eine Ansammlung verschiedenster Komponenten und Plugins.
-Selectoren sind weitverbreitet in CSS, sie sind eine Art Muster, die Elemente in einer Baum-Architektur ansprechen. Man spricht also „Element“ Nodes vom Document Object Model an und kann ihnen dann bestimmte Operationen (zB. CSS Transitions) zuweisen.  CSS Transitions sind Eigenschaftsveränderungen an CSS Werten über eine bestimmte Zeitspanne. Scalable Vector Graphics sind wie eine Baumstruktur aus Elementen mit bestimmten Attributen aufgebaut, wobei das root – Element "<svg>" angegeben werden muss. Das Koordinatensystem, das den SVG zugrunde liegt, basiert auf Gleitkommazahlen und nicht wie bei Rastergrafiken auf ganzzahligen Pixelkoordinaten.
+Selectoren sind weitverbreitet in CSS, sie sind eine Art Muster, die Elemente in einer Baum-Architektur ansprechen. Man spricht also „Element“ Nodes vom Document Object Model an und kann ihnen dann bestimmte Operationen (zB. CSS Transitions) zuweisen.  CSS Transitions sind Eigenschaftsveränderungen an CSS Werten über eine bestimmte Zeitspanne. Scalable Vector Graphics sind wie eine Baumstruktur aus Elementen mit bestimmten Attributen aufgebaut, wobei das svg-root– Element angegeben werden muss. Das Koordinatensystem, das den SVG zugrunde liegt, basiert auf Gleitkommazahlen und nicht wie bei Rastergrafiken auf ganzzahligen Pixelkoordinaten.
 Die Library lädt also ein Datenset, erstellt dann für jedes Element ein SVG Objekt mit angegebenen Eigenschaften und einem bestimmten Verhalten.
 
 Mir fiel die Arbeit mit D3 nicht leicht, vor allem anfangs blickte ich noch nicht ganz durch wie SVG und CSS zusammenspielen und welche Elemente ich nun auswählen muss, um das richtige anzusprechen und die Daten so darzustellen, wie ich mir das vorstellte.
