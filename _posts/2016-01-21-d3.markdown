@@ -23,6 +23,7 @@ Die Library lädt also ein Datenset, erstellt dann für jedes Element ein SVG Ob
 Mir fiel die Arbeit mit D3 nicht leicht, vor allem anfangs blickte ich noch nicht ganz durch wie SVG und CSS zusammenspielen und welche Elemente ich nun auswählen muss, um das richtige anzusprechen und die Daten so darzustellen, wie ich mir das vorstellte.
 Man muss sich auch noch längere Zeit damit beschäftigen, um auch wirklich effizient, qualitative Diagramme durch Datenmanipulation darzustellen. Die Möglichkeiten der Darstellung sind enorm und D3.js ist eine tolle Library, die einem viele verschiedene Arten von Diagrammen zu Verfügung stellt, welche mit mehr oder weniger Aufwand implementiert werden können. Solche visuellen Darstellungen von Daten können aus einer Webseite gleich viel mehr herausholen und ein Daten-Set zum Hingucker machen.
 
+Link zur Abgabe im Repo: https://git.mediacube.at/fhs37231/frontend_vera_karl/tree/master/06-diagrams
 
 # Quellen:
 > N.Q. Zhu, Data Visualization with D3.js Cookbook (Packt Publishing, 2013), 
